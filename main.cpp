@@ -31,7 +31,7 @@ int main() {
     // Считывание графа из файла
     ifstream input_file("graph.txt");
     if (!input_file) {
-        cerr << "Ошибка открытия файла!" << endl;
+        cerr << "Ошибка при попытке открыть файл" << endl;
         return 1;
     }
     
